@@ -1,0 +1,117 @@
+<h2><u>Student Registration Form</u></h2>
+<form action="" method="POST">
+    <fieldset>
+        <legend>Personal</legend>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" class="text" name="name" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <td>Father's Name</td>
+                <td><input type="text" class="text" name="fname" placeholder="Father's Name"></td>
+            </tr>
+            <tr>
+                <td>Mother's Name</td>
+                <td><input type="text" class="text" name="mname" placeholder="Mother's Name"></td>
+            </tr>
+            <tr>
+                <td>Address(Permanent)</td>
+                <td><textarea name="addressP" id="" cols="30" rows="5" placeholder="Permanent Address"></textarea></td>
+            </tr>
+            <tr>
+                <td>Address(Current)</td>
+                <td><textarea name="addressC" id="" cols="30" rows="5" placeholder="Current Address"></textarea></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male<input type="radio" name="gender" class="radio">Female<input type="radio" name="gender" class="radio"></td>
+            </tr>
+            <tr>
+                <td>Phone Number(Fathers)</td>
+                <td><input type="text" class="text" name="fnumber" placeholder="Fathers Number"></td>
+            </tr>
+            <tr>
+                <td>Phone Number(Personal)</td>
+                <td><input type="text" class="text" name="pnumber" placeholder="Personal Number"></td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td><input type="email" name="email" id="" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td>Applying for Course</td>
+                <td>
+                    <select name="course" id="">
+                        <option value="degree">Degree</option>
+                        <option value="diploma">Diploma</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Choose Department</td>
+                <td>
+                  <input type="checkbox" name="" id="cse">CSE&nbsp;
+                   <input type="checkbox" name="" id="civil">CIVIL&nbsp;
+                   <input type="checkbox" name="" id="ece">ECE&nbsp;
+                   <input type="checkbox" name="" id="elec">ELEC&nbsp;
+                   <input type="checkbox" name="" id="mech">MECH&nbsp;
+                   <input type="checkbox" name="" id="it">IT&nbsp;
+                   <input type="checkbox" name="" id="dhmct">DHMCT&nbsp;
+                   <input type="checkbox" name="" id="pdme">PDME&nbsp;
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Qualification</legend>
+        <table>
+            <tr>
+                <td><b><u>10<sup>th</sup> Board</u></b></td>
+            </tr>
+            <tr>
+                <td>10<sup>th</sup> percentage</td>
+                <td><input type="text" name="" id="10b" placeholder="Percentage"></td>
+            </tr>
+            <tr>
+                <td>Year of passing</td>
+                <td><input type="number" name="" id="tnyear" placeholder="Year of passing"></td>
+            </tr>
+           
+            <tr>
+                <td><b><u>12<sup>th</sup> Board</u></b></td>
+            </tr>
+            <tr>
+                <td>12<sup>th</sup> percentage</td>
+                <td><input type="text" name="" id="12b" placeholder="Percentage"></td>
+            </tr>
+            <tr>
+                <td>Year of passing</td>
+                <td><input type="number" name="" id="twyear" placeholder="Year of passing"></td>
+            </tr>
+            <tr>
+                <td>Anyother Qualification</td>
+                <td>
+                    <select name="" id="qualification">
+                        <option value="text1">text1</option>
+                        <option value="text2">text2</option>
+                    </select>
+                </td>
+                <td><input type="file" name="" id="file"></td>
+            </tr>
+            <tr>
+                <td>Preferences</td>
+                <td>
+                    <input type="text" name="" id="1st" placeholder="1st preference">&nbsp;
+                    <input type="text" name="" id="1st" placeholder="2st preference">&nbsp;
+                    <input type="text" name="" id="1st" placeholder="3st preference">&nbsp;
+                </td>
+            </tr>
+           
+        </table>
+    </fieldset>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
