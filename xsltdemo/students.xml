@@ -1,0 +1,51 @@
+<?xml-stylesheet type="text/xsl" href="students.xsl" ?>
+<class>
+    <student>
+        <rollno>18TDL016</rollno>
+        <name>Dinesh Lal</name>
+        <dept>CSE</dept>
+        <sem>6</sem>
+        <subject>Web Technology</subject>
+    </student>
+
+      <student>
+        <rollno>18TDL023</rollno>
+        <name>Souvik</name>
+        <dept>CSE</dept>
+        <sem>6</sem>
+        <subject>Web Technology</subject>
+    </student>
+
+    <student>
+        <rollno>18TDL027</rollno>
+        <name>Sourab</name>
+        <dept>CSE</dept>
+        <sem>6</sem>
+        <subject>Web Technology</subject>
+    </student>
+
+     <student>
+        <rollno>18TDL012</rollno>
+        <name>Madhu</name>
+        <dept>CSE</dept>
+        <sem>6</sem>
+        <subject>Web Technology</subject>
+    </student>
+
+     <student>
+        <rollno>18TDL017</rollno>
+        <name>Dinesh Kumar</name>
+        <dept>CSE</dept>
+        <sem>6</sem>
+        <subject>Web Technology</subject>
+    </student>
+
+     <student>
+        <rollno>18TDL019</rollno>
+        <name>Manish</name>
+        <dept>ECE</dept>
+        <sem>6</sem>
+        <subject>IC desgin</subject>
+    </student>
+
+</class>
